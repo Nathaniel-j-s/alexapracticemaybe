@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "intent": "HelloWorldIntent"
+    },
+    {
+      "intent": "GetWeatherIntent",
+      "slots": [
+        {
+          "name": "city",
+          "type": "AMAZON.US_CITY"
+        }
+      ]
+    }
+  ]
+}
+
+HelloWorldIntent say hello
+HelloWorldIntent tell me hello
+GetWeatherIntent get me the weather in {city}
+GetWeatherIntent how is the weather in {city}
+GetWeatherIntent whats the weather like in {city}
+GetWeatherIntent what is the temperature in {city} today
+GetWeatherIntent how is the weather today in {city}
